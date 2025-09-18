@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch12_ex1_sqlGateway:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/ch12_ex1_sqlGateway_war</output-path>
+    <root id="archive" name="ch12_ex1_sqlGateway_war.war">
+      <element id="artifact" artifact-name="ch12_ex1_sqlGateway:war exploded" />
+    </root>
+  </artifact>
+</component>

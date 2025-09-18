@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Context path="/ch12_ex1_sqlGateway">
-
-    <!-- Resource cho Connection Pool -->
+<Context>
     <Resource name="jdbc/murachdb"
               auth="Container"
               type="javax.sql.DataSource"
               maxTotal="20"
               maxIdle="10"
-              maxWaitMillis="10000"
-              username="postgres"
-              password="hhh1475369"
+              maxWaitMillis="-1"
+              username="murachdb"
+              password="hYGAYuCZPyhAC910QZcD3A8eytGj97bk"
               driverClassName="org.postgresql.Driver"
-              url="jdbc:postgresql://localhost:5432/murachdb"/>
+              url="postgresql://murachdb:hYGAYuCZPyhAC910QZcD3A8eytGj97bk@dpg-d360ghvdiees738n9bfg-a.singapore-postgres.render.com/murachdb_qgsx"/>
 </Context>
